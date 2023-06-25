@@ -4,6 +4,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop05 World!");
+        bool quit = false;
+        Runner runner = new Runner();
+        while (quit == false)
+        {
+            quit = runner.Menu();
+        }
     }
 }
